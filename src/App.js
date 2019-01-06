@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         Hooks
         
-        <SimpleHooks />
+        <SimpleHooksw />
         
       </div>
     );
