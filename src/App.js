@@ -7,9 +7,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        Hooks test fail
+        Hooks test repaired
         
-        <SimpleHooksww />
+        <SimpleHooks />
         
       </div>
     );
