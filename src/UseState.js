@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function SimpleHooks() {
+function UseEffect() {
   const [count, setCount] = useState(0);
   console.log('count', count);
 
@@ -14,4 +14,4 @@ function SimpleHooks() {
   );
 }
 
-export default SimpleHooks;
+export default UseEffect;
