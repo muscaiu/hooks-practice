@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-// import 'App.css';
 import UseState from 'UseState';
 import UseEffect from 'UseEffect';
 import SearchGithub from 'CustomHook';

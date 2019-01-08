@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jest-junit": "^5.2.0",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0",
     "react-scripts": "2.1.1"
@@ -10,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage --coverageDirectory=output/coverage/jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -21,5 +22,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "jest": {
+    "coverageReporters": [
+      "text"
+    ]
+  },
+  "jest-junit": {
+    "output": "output/coverage/junit/junit.xml",
+    "usePathForSuiteName": "true"
+  }
 }
