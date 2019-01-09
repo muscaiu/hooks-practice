@@ -4,6 +4,8 @@
 
 ![](https://img.shields.io/github/manifest-json/v/muscaiu/hooks-practice.svg)
 
+![](https://img.shields.io/coveralls/muscaiu/hooks-practice.svg)
+
 practicing hooks in react 16.7.0 alpha 
 
 chose this random project to test circleci following tutorial: https://www.youtube.com/watch?v=0OjEx2UzLUI
