@@ -1,4 +1,8 @@
+
+
 [![Build Status](https://travis-ci.org/muscaiu/hooks-practice.svg?branch=master)](https://travis-ci.org/muscaiu/hooks-practice)
+
+![](https://img.shields.io/github/manifest-json/v/muscaiu/hooks-practice.svg)
 
 practicing hooks in react 16.7.0 alpha 
 
